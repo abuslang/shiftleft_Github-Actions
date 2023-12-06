@@ -48,7 +48,7 @@ jobs:
         id: PCCS
         uses: bridgecrewio/checkov-action@master
         env: 
-          PRISMA_API_URL: https://api.prismacloud.io
+          PRISMA_API_URL: https://api2.prismacloud.io
         with:
           directory: ./files
           soft_fail: true # optional: do not return an error code if there are failed checks
